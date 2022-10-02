@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(9, 142, 172);
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+}
+
+header {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    width: 90%;
+    border: 1px solid red;
+    margin: auto;
+}
+
+.inputTarefa {
+    width: 80%;
+    padding-left: 10%;
+    height: 120px;
+    font-size: 50px;
+
+}
+
+button.add {
+    width: 20%;
+    cursor: pointer;
+    background-color: green;
+    height: 120px;
+    border: none;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+main {
+    display: flex;
+    flex-flow: row wrap;
+    width: 90%;
+    padding-top: 40px;
+    margin: 2% auto;
+
+}
+
+.item {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 2%;
+    border: 2px solid black;
+    background-color: white;
+    overflow: hidden;
+}
+
+.icone {
+    flex: 10%;
+    font-size: 79px;
+    color: green;
+    padding: 3px;
+    width: 100%;
+}
+
+.descricao {
+    flex: 75%;
+    font-size: 45px;
+    padding: 20px;
+}
+
+.btn {
+    flex: 15%;
+    flex-flow: row wrap;
+    border: 1px solid black;
+
+}
+
+.delete {
+    background-color: red;
+    color: white;
+    width: 100%;
+    font-size: 40px;
+    border: none;
+    border-left: 2px solid black;
+    height: 97px;
+}
+
+
+
+
+/*css destinado para resposta após clique sobre o elemento de tarefa concluida   */
+
+.itemClicado {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    height: 102px;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 2%;
+    border: 2px solid black;
+    background-color: gray;
+}
+
+.NovoIcone {
+    flex: 10%;
+    font-size: 79px;
+    color: green;
+    background-color: white;
+    padding: 3px;
+    border-right: 1px solid black;
+}
+
+.NovaDescricao {
+    text-decoration: line-through;
+    flex: 75%;
+    font-size: 45px;
+    padding: 20px;
+}
+
+.NovoBtn {
+    flex: 15%;
+    flex-flow: row wrap;
+
+}
+
+.newDelete {
+    background-color: red;
+    color: white;
+    width: 99%;
+    font-size: 50px;
+    border: none;
+    height: 97px;
+    border-left: 2px solid black;
+}

@@ -1,0 +1,19 @@
+<div class="item">
+    <div class="icone">
+        <i class="mdi mdi-circle-outline"></i>
+    </div>
+    <div class="descricao">Teste de lista</div>
+    <div class="btn">
+        <button class="delete"><i class="mdi mdi-delete">Deletar</i></button>
+    </div>
+</div>
+
+<div class="itemClicado">
+    <div class="NovoIcone">
+        <i class="mdi mdi-check-circle"></i>
+    </div>
+    <div class="NovaDescricao">Teste de lista</div>
+    <div class="NovoBtn">
+        <button class="newDelete"><i class="mdi mdi-delete">Deletar</i></button>
+    </div>
+</div>
